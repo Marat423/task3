@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.5.5">
+  <diagram name="Страница-1" id="Keqjvynv_jic7F-HKgGb">
+    <mxGraphModel dx="1042" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#1A1A1A,#EDEDED)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-5" edge="1" parent="1" source="uJtJXTI68Fvr1EXStoMB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" target="uJtJXTI68Fvr1EXStoMB-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="300" />
+              <mxPoint x="360" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-17" connectable="0" parent="uJtJXTI68Fvr1EXStoMB-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;labelBackgroundColor=#000000;" value="Управление&lt;div&gt;заказом&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.295" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-15" edge="1" parent="1" source="uJtJXTI68Fvr1EXStoMB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" target="uJtJXTI68Fvr1EXStoMB-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-16" connectable="0" parent="uJtJXTI68Fvr1EXStoMB-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;labelBackgroundColor=#000000;" value="Смотреть товары" vertex="1">
+          <mxGeometry relative="1" x="-0.1067" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=#000000;" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;Пользователь&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-10" edge="1" parent="1" source="uJtJXTI68Fvr1EXStoMB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" target="uJtJXTI68Fvr1EXStoMB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-12" edge="1" parent="1" source="uJtJXTI68Fvr1EXStoMB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFFFFF;" target="uJtJXTI68Fvr1EXStoMB-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="480" />
+              <mxPoint x="560" y="480" />
+              <mxPoint x="560" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-18" connectable="0" parent="uJtJXTI68Fvr1EXStoMB-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);&quot;&gt;Отправить уведомление&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1317" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=#000000;" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;Микросервисная архитектура&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="320" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-8" edge="1" parent="1" source="uJtJXTI68Fvr1EXStoMB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" target="uJtJXTI68Fvr1EXStoMB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-19" connectable="0" parent="uJtJXTI68Fvr1EXStoMB-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;labelBackgroundColor=#000000;" value="Управление&lt;div&gt;&amp;nbsp;сбором&lt;div&gt;заказа&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4982" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=#000000;" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;Склад&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="160" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=#000000;" value="&lt;font color=&quot;#ffffff&quot;&gt;Сервис оплаты&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-13" edge="1" parent="1" source="uJtJXTI68Fvr1EXStoMB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" target="uJtJXTI68Fvr1EXStoMB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-14" connectable="0" parent="uJtJXTI68Fvr1EXStoMB-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;labelBackgroundColor=#000000;" value="Показать уведомление" vertex="1">
+          <mxGeometry relative="1" x="-0.1261" y="-1" as="geometry">
+            <mxPoint x="-61" y="-82" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJtJXTI68Fvr1EXStoMB-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=#000000;" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;Система уведомлений&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
