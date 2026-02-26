@@ -1,0 +1,81 @@
+## ЗАДАНИЕ 2
+
+## 1 Проектирование API
+GET /v1/partners/stores
+
+Header:
+
+Authorization: Bearer <jwt_token>
+
+X-App-Version: 2.34.1
+
+X-Device-ID: 8F9E2A1C-...
+
+X-City-ID: 77   // например, Москва
+
+X-Coordinates: 55.7558,37.6173
+
+
+Query parameters:
+
+?delivery_type=express 
+
+?lat=55.7558&lon=37.6173
+
+## 2 Ответ в формате json:
+```
+{
+  "success": true,
+  "data": [
+    {
+      "id": "metro",
+      "title": "METRO",
+      "logo_url": "https://petrushka.app/partners/metro_logo.png",
+      "background_color": "#002776",
+      "text_color": "#FFFFFF",
+      "delivery_info": "Ближайшая доставка сегодня 21:00-23:00",
+      "delivery_type": "scheduled",
+      "deep_link": "https://metro.ru/app?ref=petrushka",           // сюда перейдёт пользователь
+      "web_url": "https://online.metro-cc.ru/?utm_source=petrushka"
+    },
+    {
+      "id": "auchan",
+      "title": "Ашан",
+      "logo_url": "https://petrushka.app/partners/auchan_logo.png",
+      "background_color": "#ED1C24",
+      "text_color": "#FFFFFF",
+      "delivery_info": "Ближайшая доставка сегодня 18:00-20:00",
+      "delivery_type": "scheduled",
+      "deep_link": "auchan://app?partner=petrushka",
+      "web_url": "https://www.auchan.ru/?utm_campaign=petrushka"
+    },
+    {
+      "id": "vkusvill",
+      "title": "ВкусВилл",
+      "logo_url": "https://petrushka.app/partners/vkusvill_logo.png",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "delivery_info": "Быстрая доставка от 20 до 60 минут",
+      "delivery_type": "express",
+      "deep_link": "vkusvill://main?source=petrushka",
+      "web_url": "https://vkusvill.ru/?ref=petrushka"
+    },
+    {
+      "id": "victoria",
+      "title": "ВИКТОРИЯ",
+      "logo_url": "https://petrushka.app/partners/victoria_logo.png",
+      "background_color": "#8CC63F",
+      "text_color": "#FFFFFF",
+      "delivery_info": "Ближайшая доставка сегодня 17:00-19:00",
+      "delivery_type": "scheduled",
+      "deep_link": "victoria://app?utm_source=petrushka",
+      "web_url": "https://victoria.ru/?partner=petrushka"
+    }
+  ],
+  "meta": {
+    "total": 4,
+    "updated_at": "2025-12-02T10:15:00+03:00"
+  }
+}
+
+```
